@@ -15,12 +15,47 @@
                 <script src="/sidecode/scripts.js"></script>     
             </head>
             <body>
+                <!--exemplo de cabeçalho com o elemento <header>-->
                 <header>
                     <img alt="logo" src="/img/logo.png">
                     <h1>Entendendo a estrutura e semântica do HTML5</h1>
                     <form action=www.enderecodosite.com.br/search id="searchform" method="get">
+                        <label for="s">Pesquisa</label>
+                        <input type="text" placeholder="Pesquisa" id="s">
+                        <input type="submit" value="Pesquisa" class="submit">
                     </form>
+                    <!--conteudo relacionado com o elemento <aside>-->
+                        <div id="main">
+                            <div id="primary">
+                                <article>
+                                    <header>
+                                        <h1>Entendendo o elemento Aside</h1>
+                                    <p>Publicado em <time pubdate detetime="2011-09-01"> de Setembro de 2011</time></p>                                                                                  </h1>
+                                    </header>
+                                    <p>TENTANDO ENTENDER</p>
+                                    <aside>
+                                        <h2>Curiosidade sobre o Aside</h2>
+                                    </aside>
+                                    <footer>
+                                        <p>Esse post foi publicado na categoria <a href="#" title="HTML5"></a></p>
+                                    </footer>
+                                </article>
+                            </div>
+                            <div id="secondary">
+                                <aside>
+                                    <h3>Arquivos</h3>
+                                    <ul>
+                                        <li><a href="#" title="agosto 2018">agosto 2011</a></li>
+                                        <li><a href="#" title="julho 2018">julho 2011</a></li>
+                                        <li><a href="#" title="junho 2018">junho 2011</a></li>
+                                        <li><a href="#" title="maio 2018">maio 2011</a></li>
+                                        <li><a href="#" title="abril 2018">abril 2011</a></li>
+                                    </ul>
+                                </aside>
+                            </div>
+                        </div>
                 </header>
+                <!--navegação de forma global com o elemento <nav>-->
                 <nav>
                     <ul class="menu">
                         <li><a href="inicio.html">Inicio</a></li>
@@ -29,5 +64,13 @@
                         <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </nav>
+                <!--Exemplo do modelo <section>-->
+                    <section>
+                        <article>
+                            exemplo da estrutura
+                        </article>
+                    </section>
+                
+
             </body>
             </html>     
